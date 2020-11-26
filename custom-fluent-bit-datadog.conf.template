@@ -1,0 +1,8 @@
+[OUTPUT]
+    Name datadog
+    Match  *
+    TLS on
+    apikey $DATADOG_API_KEY
+    dd_service $DATADOG_SERVICE
+    dd_source $DATADOG_SOURCE
+    dd_tags $DATADOG_TAGS
